@@ -1,0 +1,8 @@
+{% extends "appchat/base.html" %}
+{% block content %}
+{% for p in rooms %}
+<div class="contenedor">
+    <h2 class="title">{{p.nombre}}</h2>
+</div>
+{% endfor %}
+{% endblock content %}

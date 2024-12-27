@@ -1,0 +1,14 @@
+{% extends "appchat/base.html" %}
+
+{% block content %}
+<div>
+    <h1>{{room.nombre}}</h1>
+    {% for m in room.mensajes %}
+    <div>
+    <p>{{m.mensaje}}</p>
+    <h5>{{m.user}}</h5>
+    <h5>{{m.fecha}}</h5>
+    </div>
+    {% endfor %}
+</div>
+{% endblock content %}
