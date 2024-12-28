@@ -12,3 +12,4 @@ App Post:
 App Chat: 
 -La idea del manejo del chat era crear chatrooms, en los cuales mas de un usuario puede ingresar, asi como tambien irse 
 -Por cuestiones de tiempo no pude llegar a finalizarlo, pero en la url este /enterRoom que busca (y si no existe, crea) un chatroom al cual unirse 
+-/ver_rooms te lleva a un link con los chatrooms creados, pero aun asi se repiten y no esta linkeado para unirse 
