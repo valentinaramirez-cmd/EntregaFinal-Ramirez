@@ -12,7 +12,7 @@ class HomeView (LoginRequiredMixin, TemplateView):
 
 class CreatePostView (LoginRequiredMixin, CreateView): 
     model = Post
-    fields = ['texto', 'titulo']
+    fields = ['texto', 'tit']
     template = './appPost/post_form.html'
     success_url = reverse_lazy('appPost:menu')
 
